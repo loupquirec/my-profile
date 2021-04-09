@@ -1,0 +1,145 @@
+body {
+  background-color: #CCE5F5;
+  color: rgb(30, 30, 30);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.container {
+  width: 1000px;
+  margin: 10px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px
+  }
+}
+
+.card-layout {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.subcard-layout {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  color: #28536B;
+  font-size: 40px;
+}
+
+h2 {
+  color: rgb(30, 30, 30);
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #28536B;
+  transition: color 0.2s ease;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #B1C1C0;
+}
+
+.text-light {
+  color: #B1C1C0;
+  font-size: 12px;
+}
+
+.btn-blue {
+  background-color: #28536B;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+.btn-blue:hover {
+  background-color: #B1C1C0;
+  color: black;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #B1C1C0;
+}
+
+.list-inline i:hover {
+  font-size: 50px;
+  color: #28536B;
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.logo-circle {
+  border-radius: 50%;
+  width: 100px;
+  filter: opacity(40%);
+}
+
+.logo-circle:hover {
+  filter: none;
+}
+
+.logo-rectangle {
+  border-radius: 5px;
+  width: 150px;
+  filter: opacity(40%);
+}
+
+.logo-rectangle:hover {
+  filter: none;
+}
+
+.gif-small {
+  width: 100px;
+}
+
+#introduction p {
+  margin-bottom: 30px;
+}
